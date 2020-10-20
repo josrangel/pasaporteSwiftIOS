@@ -15,6 +15,8 @@
 		307C9F4E253F53D3002AAB13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307C9F4C253F53D3002AAB13 /* LaunchScreen.storyboard */; };
 		307C9F59253F53D4002AAB13 /* pasaporteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C9F58253F53D4002AAB13 /* pasaporteTests.swift */; };
 		307C9F64253F53D4002AAB13 /* pasaporteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C9F63253F53D4002AAB13 /* pasaporteUITests.swift */; };
+		307C9F75253F592A002AAB13 /* photoMemin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 307C9F74253F592A002AAB13 /* photoMemin.jpeg */; };
+		307C9F7A253F5B58002AAB13 /* CountriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C9F79253F5B58002AAB13 /* CountriesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		307C9F5F253F53D4002AAB13 /* pasaporteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pasaporteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		307C9F63253F53D4002AAB13 /* pasaporteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pasaporteUITests.swift; sourceTree = "<group>"; };
 		307C9F65253F53D4002AAB13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		307C9F74253F592A002AAB13 /* photoMemin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photoMemin.jpeg; sourceTree = "<group>"; };
+		307C9F79253F5B58002AAB13 /* CountriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				307C9F43253F53CF002AAB13 /* SceneDelegate.swift */,
 				307C9F45253F53CF002AAB13 /* ViewController.swift */,
 				307C9F47253F53CF002AAB13 /* Main.storyboard */,
+				307C9F79253F5B58002AAB13 /* CountriesTableViewController.swift */,
+				307C9F74253F592A002AAB13 /* photoMemin.jpeg */,
 				307C9F4A253F53D3002AAB13 /* Assets.xcassets */,
 				307C9F4C253F53D3002AAB13 /* LaunchScreen.storyboard */,
 				307C9F4F253F53D4002AAB13 /* Info.plist */,
@@ -234,6 +240,7 @@
 				307C9F4E253F53D3002AAB13 /* LaunchScreen.storyboard in Resources */,
 				307C9F4B253F53D3002AAB13 /* Assets.xcassets in Resources */,
 				307C9F49253F53CF002AAB13 /* Main.storyboard in Resources */,
+				307C9F75253F592A002AAB13 /* photoMemin.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				307C9F7A253F5B58002AAB13 /* CountriesTableViewController.swift in Sources */,
 				307C9F46253F53CF002AAB13 /* ViewController.swift in Sources */,
 				307C9F42253F53CF002AAB13 /* AppDelegate.swift in Sources */,
 				307C9F44253F53CF002AAB13 /* SceneDelegate.swift in Sources */,
