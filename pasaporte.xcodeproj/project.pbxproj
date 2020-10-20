@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		307C9F42253F53CF002AAB13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C9F41253F53CF002AAB13 /* AppDelegate.swift */; };
+		307C9F44253F53CF002AAB13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C9F43253F53CF002AAB13 /* SceneDelegate.swift */; };
+		307C9F46253F53CF002AAB13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C9F45253F53CF002AAB13 /* ViewController.swift */; };
+		307C9F49253F53CF002AAB13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307C9F47253F53CF002AAB13 /* Main.storyboard */; };
+		307C9F4B253F53D3002AAB13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 307C9F4A253F53D3002AAB13 /* Assets.xcassets */; };
+		307C9F4E253F53D3002AAB13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307C9F4C253F53D3002AAB13 /* LaunchScreen.storyboard */; };
+		307C9F59253F53D4002AAB13 /* pasaporteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C9F58253F53D4002AAB13 /* pasaporteTests.swift */; };
+		307C9F64253F53D4002AAB13 /* pasaporteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C9F63253F53D4002AAB13 /* pasaporteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		307C9F55253F53D4002AAB13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 307C9F36253F53CF002AAB13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 307C9F3D253F53CF002AAB13;
+			remoteInfo = pasaporte;
+		};
+		307C9F60253F53D4002AAB13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 307C9F36253F53CF002AAB13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 307C9F3D253F53CF002AAB13;
+			remoteInfo = pasaporte;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		307C9F3E253F53CF002AAB13 /* pasaporte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pasaporte.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		307C9F41253F53CF002AAB13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		307C9F43253F53CF002AAB13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		307C9F45253F53CF002AAB13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		307C9F48253F53CF002AAB13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		307C9F4A253F53D3002AAB13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		307C9F4D253F53D3002AAB13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		307C9F4F253F53D4002AAB13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		307C9F54253F53D4002AAB13 /* pasaporteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pasaporteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		307C9F58253F53D4002AAB13 /* pasaporteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pasaporteTests.swift; sourceTree = "<group>"; };
+		307C9F5A253F53D4002AAB13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		307C9F5F253F53D4002AAB13 /* pasaporteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pasaporteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		307C9F63253F53D4002AAB13 /* pasaporteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pasaporteUITests.swift; sourceTree = "<group>"; };
+		307C9F65253F53D4002AAB13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		307C9F3B253F53CF002AAB13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307C9F51253F53D4002AAB13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307C9F5C253F53D4002AAB13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		307C9F35253F53CF002AAB13 = {
+			isa = PBXGroup;
+			children = (
+				307C9F40253F53CF002AAB13 /* pasaporte */,
+				307C9F57253F53D4002AAB13 /* pasaporteTests */,
+				307C9F62253F53D4002AAB13 /* pasaporteUITests */,
+				307C9F3F253F53CF002AAB13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		307C9F3F253F53CF002AAB13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				307C9F3E253F53CF002AAB13 /* pasaporte.app */,
+				307C9F54253F53D4002AAB13 /* pasaporteTests.xctest */,
+				307C9F5F253F53D4002AAB13 /* pasaporteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		307C9F40253F53CF002AAB13 /* pasaporte */ = {
+			isa = PBXGroup;
+			children = (
+				307C9F41253F53CF002AAB13 /* AppDelegate.swift */,
+				307C9F43253F53CF002AAB13 /* SceneDelegate.swift */,
+				307C9F45253F53CF002AAB13 /* ViewController.swift */,
+				307C9F47253F53CF002AAB13 /* Main.storyboard */,
+				307C9F4A253F53D3002AAB13 /* Assets.xcassets */,
+				307C9F4C253F53D3002AAB13 /* LaunchScreen.storyboard */,
+				307C9F4F253F53D4002AAB13 /* Info.plist */,
+			);
+			path = pasaporte;
+			sourceTree = "<group>";
+		};
+		307C9F57253F53D4002AAB13 /* pasaporteTests */ = {
+			isa = PBXGroup;
+			children = (
+				307C9F58253F53D4002AAB13 /* pasaporteTests.swift */,
+				307C9F5A253F53D4002AAB13 /* Info.plist */,
+			);
+			path = pasaporteTests;
+			sourceTree = "<group>";
+		};
+		307C9F62253F53D4002AAB13 /* pasaporteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				307C9F63253F53D4002AAB13 /* pasaporteUITests.swift */,
+				307C9F65253F53D4002AAB13 /* Info.plist */,
+			);
+			path = pasaporteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		307C9F3D253F53CF002AAB13 /* pasaporte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 307C9F68253F53D4002AAB13 /* Build configuration list for PBXNativeTarget "pasaporte" */;
+			buildPhases = (
+				307C9F3A253F53CF002AAB13 /* Sources */,
+				307C9F3B253F53CF002AAB13 /* Frameworks */,
+				307C9F3C253F53CF002AAB13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pasaporte;
+			productName = pasaporte;
+			productReference = 307C9F3E253F53CF002AAB13 /* pasaporte.app */;
+			productType = "com.apple.product-type.application";
+		};
+		307C9F53253F53D4002AAB13 /* pasaporteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 307C9F6B253F53D4002AAB13 /* Build configuration list for PBXNativeTarget "pasaporteTests" */;
+			buildPhases = (
+				307C9F50253F53D4002AAB13 /* Sources */,
+				307C9F51253F53D4002AAB13 /* Frameworks */,
+				307C9F52253F53D4002AAB13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				307C9F56253F53D4002AAB13 /* PBXTargetDependency */,
+			);
+			name = pasaporteTests;
+			productName = pasaporteTests;
+			productReference = 307C9F54253F53D4002AAB13 /* pasaporteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		307C9F5E253F53D4002AAB13 /* pasaporteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 307C9F6E253F53D4002AAB13 /* Build configuration list for PBXNativeTarget "pasaporteUITests" */;
+			buildPhases = (
+				307C9F5B253F53D4002AAB13 /* Sources */,
+				307C9F5C253F53D4002AAB13 /* Frameworks */,
+				307C9F5D253F53D4002AAB13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				307C9F61253F53D4002AAB13 /* PBXTargetDependency */,
+			);
+			name = pasaporteUITests;
+			productName = pasaporteUITests;
+			productReference = 307C9F5F253F53D4002AAB13 /* pasaporteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		307C9F36253F53CF002AAB13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					307C9F3D253F53CF002AAB13 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					307C9F53253F53D4002AAB13 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 307C9F3D253F53CF002AAB13;
+					};
+					307C9F5E253F53D4002AAB13 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 307C9F3D253F53CF002AAB13;
+					};
+				};
+			};
+			buildConfigurationList = 307C9F39253F53CF002AAB13 /* Build configuration list for PBXProject "pasaporte" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 307C9F35253F53CF002AAB13;
+			productRefGroup = 307C9F3F253F53CF002AAB13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				307C9F3D253F53CF002AAB13 /* pasaporte */,
+				307C9F53253F53D4002AAB13 /* pasaporteTests */,
+				307C9F5E253F53D4002AAB13 /* pasaporteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		307C9F3C253F53CF002AAB13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307C9F4E253F53D3002AAB13 /* LaunchScreen.storyboard in Resources */,
+				307C9F4B253F53D3002AAB13 /* Assets.xcassets in Resources */,
+				307C9F49253F53CF002AAB13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307C9F52253F53D4002AAB13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307C9F5D253F53D4002AAB13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		307C9F3A253F53CF002AAB13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307C9F46253F53CF002AAB13 /* ViewController.swift in Sources */,
+				307C9F42253F53CF002AAB13 /* AppDelegate.swift in Sources */,
+				307C9F44253F53CF002AAB13 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307C9F50253F53D4002AAB13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307C9F59253F53D4002AAB13 /* pasaporteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307C9F5B253F53D4002AAB13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307C9F64253F53D4002AAB13 /* pasaporteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		307C9F56253F53D4002AAB13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 307C9F3D253F53CF002AAB13 /* pasaporte */;
+			targetProxy = 307C9F55253F53D4002AAB13 /* PBXContainerItemProxy */;
+		};
+		307C9F61253F53D4002AAB13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 307C9F3D253F53CF002AAB13 /* pasaporte */;
+			targetProxy = 307C9F60253F53D4002AAB13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		307C9F47253F53CF002AAB13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				307C9F48253F53CF002AAB13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		307C9F4C253F53D3002AAB13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				307C9F4D253F53D3002AAB13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		307C9F66253F53D4002AAB13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		307C9F67253F53D4002AAB13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		307C9F69253F53D4002AAB13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pasaporte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josrangel.pasaporte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		307C9F6A253F53D4002AAB13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pasaporte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josrangel.pasaporte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		307C9F6C253F53D4002AAB13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pasaporteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josrangel.pasaporteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pasaporte.app/pasaporte";
+			};
+			name = Debug;
+		};
+		307C9F6D253F53D4002AAB13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pasaporteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josrangel.pasaporteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pasaporte.app/pasaporte";
+			};
+			name = Release;
+		};
+		307C9F6F253F53D4002AAB13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pasaporteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josrangel.pasaporteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pasaporte;
+			};
+			name = Debug;
+		};
+		307C9F70253F53D4002AAB13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pasaporteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josrangel.pasaporteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pasaporte;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		307C9F39253F53CF002AAB13 /* Build configuration list for PBXProject "pasaporte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				307C9F66253F53D4002AAB13 /* Debug */,
+				307C9F67253F53D4002AAB13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		307C9F68253F53D4002AAB13 /* Build configuration list for PBXNativeTarget "pasaporte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				307C9F69253F53D4002AAB13 /* Debug */,
+				307C9F6A253F53D4002AAB13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		307C9F6B253F53D4002AAB13 /* Build configuration list for PBXNativeTarget "pasaporteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				307C9F6C253F53D4002AAB13 /* Debug */,
+				307C9F6D253F53D4002AAB13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		307C9F6E253F53D4002AAB13 /* Build configuration list for PBXNativeTarget "pasaporteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				307C9F6F253F53D4002AAB13 /* Debug */,
+				307C9F70253F53D4002AAB13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 307C9F36253F53CF002AAB13 /* Project object */;
+}
